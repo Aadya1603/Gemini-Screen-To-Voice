@@ -11,7 +11,7 @@ A web-based application that uses Google Generative AI to analyze screenshots ta
 - google-generativeai
 - keyboard
 
-##Usage
+## Usage
 Start the Flask server:
 ```
 python app.py
