@@ -32,6 +32,8 @@ def start_application():
 @app.route('/stop-application')
 def stop_application():
     stop_event.set()
+    global api_key
+    api_key = ''  # Clear the API key
     return "Application stopped successfully!", 200
 
 def start_voice_app():
